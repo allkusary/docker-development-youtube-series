@@ -1,5 +1,5 @@
 node('jenkins-slave') {
-    
+     agent any
      stage('test pipeline') {
         sh(script: """
             echo "hello"
